@@ -25,40 +25,34 @@ header {
             text-align: left;
             margin: 10px;
         }
-        a {
-            color: #000;
-        }
+        /* unvisited link */
+        a:link {
+        color:black;
+        } 
+        /* mouse over link */
+        a:hover {
+        color: hotpink;
+         }
 
         .bio{
             margin-left: 1%;
             margin-right: 5%;
             text-align: justify;
-            
-            
-        }
+            }
         #bio-image {
             float: left;
             margin-right: 3%;
             margin-top: 1%;
-        
-
-        }
+            }
         #main-bio{
             
             background-color: lightgrey;
-            width: 600px;
+            width: 700px;
             border: 15px solid whitesmoke;
             padding: 50px;
             margin: 20px;
-        }
-        #contact-info{
-            background-color: lightgrey;
-            width: 600px;
-            border: 15px solid whitesmoke;
-            padding: 50px;
-            margin: 20px;
-        }
+            }
         .nav {
             text-align: right;
             padding: 2%;
-        }
+            }
