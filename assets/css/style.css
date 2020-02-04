@@ -1,17 +1,4 @@
-body {
-    background-color: cadetblue;
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 150%;
-    color:#777777;
-}
-header {
-    background-color:whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-        h1 {
+h1 {
             padding: 2%;
             margin: 0;
             font-size: 28px;
@@ -19,48 +6,63 @@ header {
             text-align: left;
             background-color: #4aaaa5;  
             float: left;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            
         }
-        h2 {
-            color: darkgreen;
+h2 {
+            color: #4aaaa5;
             text-align: left;
             margin: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            
         }
         /* unvisited link */
-        a:link {
+a:link {
         color: #777777;
         } 
         /* mouse over link */
-        a:hover {
-        color: darkorange;
+a:hover {
+        color: #4aaaa5;
          }
 
-        .bio{
+.bio{
             margin-left: 1%;
             margin-right: 5%;
             text-align: justify;
             }
-        #bio-image {
+#bio-image {
             float: left;
             margin-right: 3%;
             margin-top: 1%;
             }
-        #main-bio{
-            background-color: #ffffff;
+#main-bio{
+            
             width: 960px;
-            border: 15px solid #dddddd;
-            padding: 50px;
-            margin: 20px;
-            }
-        .nav {
-            text-align: right;
-            padding: 2%;
+            position: fixed;
+            top: 150px;
+            bottom: 20px;
+            left: 100px;
+            right: 20px;
+            height: 300px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: #dddddd;
+            background-color: #ffffff;
+            padding: 10px;
             
             }
-        .footer {
-            text-align: center;
-            font-size: 12px;
-            border-top:15px solid darkorange;
-            background-color: #666666;
-            height: 20%;
-
-        }
+.nav {
+            text-align: right;
+            padding: 2%;
+    }
+.main {
+    height: 550px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+    
+    
+    
+}
